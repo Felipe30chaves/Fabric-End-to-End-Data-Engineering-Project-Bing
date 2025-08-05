@@ -117,7 +117,7 @@ Caso de Uso:
 Notificar equipes se ocupação de UTIs ultrapassar 90%.
 
 
-8. Power BI
+### 8. Power BI
 Função Principal:
 Visualização e análise de dados.
 
