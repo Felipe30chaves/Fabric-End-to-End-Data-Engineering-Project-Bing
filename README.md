@@ -7,3 +7,21 @@ Este projeto implementa um pipeline de dados end-to-end utilizando o Microsoft F
 
 # Solution Architecture Overview
 ![Solution](https://github.com/Felipe30chaves/Fabric-End-to-End-Data-Engineering-Project-Bing/blob/main/Arquitetura.jpg)
+
+
+### 1. Azure Data Factory (ADF)
+Função Principal:
+Orquestração de pipelines e ingestão de dados.
+
+Recursos-Chave:
+
+Copy Activity: Move dados entre fontes (HTTP, Blob Storage) e destinos (Data Lake, SQL DB).
+
+Data Flows: Transformações visuais (join, pivot, filtro) sem código.
+
+Triggers Agendados: Automação de execuções (ex.: coleta diária de dados da ECDC).
+
+Monitoramento: Rastreamento de falhas em tempo real via Azure Monitor.
+
+Caso de Uso:
+Ingestão de dados da Bing API/ECDC para o Data Lake.
