@@ -1,0 +1,21 @@
+Read Me (*Important*) - Environment Setup
+Important Notice Regarding Bing API Access
+
+If you're reading this, you’ve likely encountered issues while trying to create a Bing API resource. Unfortunately, Microsoft has discontinued access for new customers, preventing them from setting up a new Bing API instance.
+
+However, I still have an existing Bing API resource that remains functional. Since there's no alternative for continuing this project, I am providing access to my credentials. Please note: Sharing credentials is not a best practice, and I strongly advise against using this approach in any real-world projects.
+
+Before Using These Credentials, Please Keep in Mind:
+Limited Usage: The Bing API is on the free tier, which allows only 1,000 requests per month. To ensure fair access for everyone, please stop using it once you've completed the project. This includes disabling any scheduled triggers in Azure Data Factory (covered in Lecture 12: Building Pipelines using Data Factory for Orchestration).
+
+Confidentiality: Do not share these credentials on any other platform. If they are leaked, I will be forced to delete the resource, impacting everyone relying on it.
+
+Not a Best Practice: As mentioned earlier, this is not an ideal approach. Please do not take this as a reference for handling API credentials in real-world projects. This is a temporary workaround solely for completing this project.
+
+Bing API Credentials:
+URL: https://api.bing.microsoft.com/v7.0/news/search
+
+Key: 418bd5d0bd69472eafd8d61101d439e4
+
+You can now skip the Environment Setup section and move to the next section: Data Ingestion using Data Factory (Lecture 6). There, you can use the provided URL and Key to continue with the project
+Apologies for the inconvenience, and I appreciate your understanding. I hope this helps everyone complete the project successfully. Happy learning!
